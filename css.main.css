@@ -53,6 +53,9 @@ header {
 header #logo {
     width: 40%;
     float: left;
+    color: #d38484;
+    font-size: 2em;
+    font-family: 'Times New Roman', sans-serif;
 }
 
 header #munuHead {
