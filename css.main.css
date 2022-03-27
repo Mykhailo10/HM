@@ -11,12 +11,13 @@ body {
     height: 100%;
     background-color: #fff;
 color: #333;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: "Segoe UI", Arial, Helvetica, sans-serif;
 font-size: 1em;
 line-height: 135%;
+float: left;
 }
 a {
-    color: #d384;
+    color: #d38484;
     text-decoration: none;
 }
 a, a:hover {
@@ -25,5 +26,27 @@ a, a:hover {
     -o-transition: all.6s ease;
     -o-transition: all. 6s ease;
 
+}
+.clear {
+    clear: both;
+}
+head {
+    width: 98%;
+    float: left;
+    padding: 1%;
+    border-bottom: 2px solid silver;
+}
+header
+ #logo {
+    width: 40%;
+    float: left;
+}
+header #munuHead {
+    width: 30%;
+    float: left;
+}
+header #regAuth {
+    width: 30%;
+    float: left;
 }
 p {color: brown; font-family: Impact;}
