@@ -13,7 +13,7 @@ body {
     height: 100%;
     background-color: #fff;
     color: #333;
-    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     font-size: 1em;
     line-height: 135%;
     float: left;
@@ -33,6 +33,7 @@ a, a:hover {
     -moz-transition: all.6s ease;
     -o-transition: all.6s ease;
     -ms-transition: all.6s ease;
+    transition: all.6s ease;
 }
 
 .clear {
@@ -41,7 +42,7 @@ a, a:hover {
 
 /*стилі для шапки*/
 
-head {
+header {
     width: 98%;
     float: left;
     padding: 1%;
