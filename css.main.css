@@ -62,6 +62,6 @@ header #munuHead {
 
 header #regAuth {
     width: 30%;
-    float: left;
+    float: right;
     text-align: right;
 }
