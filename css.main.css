@@ -43,17 +43,18 @@ head {
     background-color: #fafafa;
     border-bottom: 2px solid silver;
 }
-header
- #logo {
+
+header #logo {
     width: 40%;
     float: left;
 }
+
 header #munuHead {
     width: 30%;
     float: left;
 }
+
 header #regAuth {
     width: 30%;
     float: left;
 }
-p {color: brown; font-family: Impact;}
