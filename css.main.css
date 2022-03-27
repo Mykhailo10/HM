@@ -5,7 +5,9 @@
     padding: 0;
     outline: none;
 }
+
 html {height: 100%;}
+
 body {
     width: 100%;
     height: 100%;
@@ -16,12 +18,14 @@ body {
     line-height: 135%;
     float: left;
 }
+
 a {
     color: #d38484;
     text-decoration: none;
 }
+
 a:hover {
-    color: #efdeae0;
+    color: #efdea0;
 }
 
 a, a:hover {
@@ -30,6 +34,7 @@ a, a:hover {
     -o-transition: all.6s ease;
     -ms-transition: all.6s ease;
 }
+
 .clear {
     clear: both;
 }
