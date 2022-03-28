@@ -1,2 +1,2 @@
 
-alert("Javascript підключено")
+alert("Javascript подключен");
