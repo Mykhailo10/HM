@@ -62,7 +62,7 @@ header #munuHead {
     float: left;
 }
 
-header #auth {
+header #regauth {
     width: 30%;
     float: left;
     text-align: right;
