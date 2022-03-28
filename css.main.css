@@ -65,4 +65,5 @@ header #munuHead {
 header #auth {
     width: 30%;
     float: left;
+    text-align: right;
 }
