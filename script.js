@@ -1,2 +1,2 @@
 
-alert("Javascript подключен");
+alert("We are Ukraine");
