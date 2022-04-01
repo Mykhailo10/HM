@@ -14,6 +14,15 @@ body {
     height: 1024px;
     background: #D0D7FE;
 }
+header {
+
+    position: absolute;
+    width: 1058px;
+    height: 786px;
+    left: 191px;
+    top: 119px;
+    background: #FFFFFF;
+}
 
 a {
 
