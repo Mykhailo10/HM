@@ -1,27 +1,51 @@
 
  @charset "utf-8";
- *{
-    margin: 0;
-    padding: 0;
-    outline: none;
-}
 
 html {height: 100%}
 
 body {
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-    background: #D0D7FE;
+    padding: 0;
+    margin: 0;
+    background-color:#D0D7FE;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
 }
-header {
-    position: absolute;
-    width: 1058px;
-    height: 786px;
-    left: 191px;
-    top: 119px;
-    background: #FFFFFF;
+.todolist {
+    max-width: 1058px;
+    height: auto;
+    margin: 191px auto;
+    background-color: white;
+    padding-top: 119px;
+    color: #09165F;
 }
+.logo {
+    text-align: center;
+    color:#09165F;
+    font-family: Kanit;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.container {
+    margin:0 auto;
+    max-width: 700px;
+    border: 1px solid #DADADA;
 
-
-
+}
+ h1 {
+    margin: auto;
+    text-align: center;
+    color: #09165f;
+    width: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .newtodo-block {
+    margin-top: 30px;
+    width: 700px;
+    height: 56px;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
