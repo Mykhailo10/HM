@@ -13,12 +13,11 @@ body {
 }
 .todolist {
     max-width: 1058px;
-    height: auto;
-    margin: 191px auto;
+    margin: 120px auto;
     background-color: white;
-    padding-top: 119px;
-    color: #09165F;
+    padding-top: 87px;
 }
+
 .logo {
     text-align: center;
     color:#09165F;
@@ -30,22 +29,42 @@ body {
 .container {
     margin:0 auto;
     max-width: 700px;
-    border: 1px solid #DADADA;
-
 }
- h1 {
+h1{
     margin: auto;
     text-align: center;
     color: #09165f;
     width: 50%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana;
     font-weight: bold;
-    font-size: 30px;
-  }
-  .newtodo-block {
-    margin-top: 30px;
-    width: 700px;
+    font-size: 30px; 
+}
+button, input {
+    border:none;
+    cursor:pointer;
+}
+.new-todo {
+    position: relative;
+    width: 670px;
+    margin-bottom: 30px;
+}
+.new-todo>input {
+    width: 650px;
     height: 56px;
-    margin-left: 180px;
-    margin-right: 180px;
-  }
+    background-color: #F3F5FF;
+    color:  #B5B5B5;
+    border-radius: 50px;
+    padding-left: 23px;  
+}
+.plus {
+    background-color:  #536DFF;
+    color: white;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    cursor: pointer;
+}
