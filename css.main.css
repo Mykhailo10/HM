@@ -1,70 +1,82 @@
 
  @charset "utf-8";
-
-html {height: 100%}
-
-body {
-    padding: 0;
+ body {
     margin: 0;
-    background-color:#D0D7FE;
-    font-family: "Inter", sans-serif;
-    box-sizing: border-box;
-    font-size: 16px;
-}
-.todolist {
-    max-width: 1058px;
-    margin: 120px auto;
-    background-color: white;
-    padding-top: 87px;
+    padding: 0;
+    background-color: #D0D7FE;
 }
 
-.logo {
-    text-align: center;
-    color:#09165F;
-    font-family: Kanit;
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
 .container {
-    margin:0 auto;
-    max-width: 700px;
+    background-color: #fff;
+    width: 80%;
+    margin: 120px auto;
+    padding-bottom: 120px;
 }
-h1{
-    margin: auto;
+
+.title {
     text-align: center;
-    color: #09165f;
-    width: 50%;
-    font-family: Verdana;
-    font-weight: bold;
-    font-size: 30px; 
+    padding-top: 10%;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133%;
+    letter-spacing: 0.035em;
+    color: #09165F;
 }
-button, input {
-    border:none;
-    cursor:pointer;
-}
-.new-todo {
+
+.form-todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    width: 670px;
-    margin-bottom: 30px;
 }
-.new-todo>input {
-    width: 650px;
+
+.form-input {
+    width: 75%;
     height: 56px;
-    background-color: #F3F5FF;
-    color:  #B5B5B5;
+    background: #F3F5FF;
     border-radius: 50px;
-    padding-left: 23px;  
+    border: none;
+    padding-left: 23px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B5B5B5;
 }
-.plus {
-    background-color:  #536DFF;
-    color: white;
-    width: 46px;
+
+.form-input::placeholder {
+    color: #B5B5B5;
+}
+
+.form-input:focus-visible {
+    outline: none;
+}
+
+.form-btn-plus {
+    position: relative;
+    right: 51px;
+    padding: 0;
     height: 46px;
-    border-radius: 50%;
-    font-size: 24px;
-    position: absolute;
-    top: 5px;
-    right: 0;
-    cursor: pointer;
+    width: 46px;
+    border: 0;
+    color: white;
+    font-size: 30px;
+    background-color:#536DFF;
+    border-radius: 50px;
+}
+h4 {
+    font-family: Inter;
+    font-weight: 500 medium;
+    color: #09165F;
+    margin-top: 31px;
+    margin-left: 21px;
+    font-size: 16px;
+    text-align: left;
+}
+.task {
+    border-bottom: 1px solid #DADADA;
+
 }
