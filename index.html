@@ -7,15 +7,28 @@
     <script src="script.js"></script>
 </head>
     <body>
-        <div class="wrapp">
-            <div class="container">
-              <h2 class="title">TODOLIST</h2>
-              <form class="form-todo" method="get">
-                <input class="form-input" type="text" placeholder="New todo">
-                <button class="form-btn-plus">+</button>
-              </form>
+        <div class="todo-wrapper">
+            <div class="white-box">
+              <div class="max-width-740 padding-vertical-20 margin-horizontal-auto">
+                <h1 class="title">TODOLIST</h1>
+              </div>
+
+              <div class="max-width-740 padding-vertical-20 margin-horizontal-auto margin-top-32">
+                <form class="add-todo-form">
+                  <input
+                    type="text"
+                    placeholder="New todo"
+                    class="add-todo-form__input"
+                  />
+                  <button class="add-todo-form__button">+</button>
+                </form>
+              </div>
+              <div class="max-width-740 padding-vertical-20 margin-horizontal-auto margin-top-32">
                     <p class="items">You have 10 pending items</p>
+                    <div class="overflow margin-top-4">
+
                         <ul class="task">
+
                         <li class="list-task"></li>
                         <span class="task-name">Read the book</span>
                         <button class="list-btn-done">Done</button>
@@ -37,9 +50,11 @@
                         <li class="list-task"></li>
                         <span class="task-name">Do homework</span>
                         <button class="list-btn-done">Done</button>
+                        
                     </ul>
+
                     </div>
             </div>
         </div>
     </body>
-</html>
+</html> -->
