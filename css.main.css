@@ -61,6 +61,16 @@ padding-left: 13px;
   margin-right: 5px;
 }
 
+.plus {
+  left: 16.67%;
+  right: 16.67%;
+  top: 16.67%;
+  bottom: 16.67%;
+  font-size:x-large;
+
+
+}
+
 h4 {
   padding-left: 201px;
   font-family: 'Inter';
@@ -74,21 +84,30 @@ h4 {
 
 .box-scroll {
   width: 740px;
-  height: 376px;
+  height: 400px;
   margin-left: 178px;
   margin-right: 137px;
   margin-bottom: 124px;
+  margin-top: -5px;
   overflow: hidden;
   overflow-y: scroll;
 }
+::-webkit-scrollbar {
+  width: 4px;
+  height: 130px;
+  left: 1108px;
+  top: 405px;
+  background: #C2C2C2;
+  border-radius: 10px;
+}
 .block-2 {
-  max-width: 740px;
+  width: 740px;
   height: 376px;
   margin-left: 23px;
 }
 .box-item {
   height: 56px;
-  max-width: 700px;
+  width: 720px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -97,6 +116,7 @@ h4 {
 }
 
 .items {
+
 }
 
 .button-done {
